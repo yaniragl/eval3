@@ -20,12 +20,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <li class="tab" ><img src="https://i.imgur.com/LCCJ06E.png" alt="" class="icon"/></li>
     </ul>
     
-    <form class="form">
-      <input type="text" placeholder="primer nombre" class="textbox" />
-      <input type="text" placeholder="Apellido" class="textbox" />
-      <input type="text" placeholder="Direccion de Email" class="textbox" />
+     class="form"
+      <input type="text" placehoder="primer nombre" name="nombre1" class="textbox" />
+      <input type="text" placeholder="Apellido" name="apellido1" class="textbox" />
+      <input type="text" placeholder="Direccion de Email" name="correo"class="textbox" />
       <input type="button" value="Next" class="button" />
-    </form>
+    
   </div>
 </div>
 
