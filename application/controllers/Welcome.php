@@ -29,7 +29,7 @@ class Welcome extends CI_Controller
 
 		$email = $this->input->post('correo');
 
-		echo "Nombre:".$nombre1."Apellido:".$lastname."correo:"$"correo".;
+		echo "Nombre: ".$nombre1."Apellido:".$lastname."correo:".$correo".;
 
 		//Aqui estamos creando el array
 
