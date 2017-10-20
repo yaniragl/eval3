@@ -3,8 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller 
 {
-
-	function __construct(){
+     function __construct(){
 		parent::__construct();
 		$this->load->helper('form');
 
@@ -23,7 +22,6 @@ class Welcome extends CI_Controller
 	{
 		
 	    // echo aqui estamos haciendo los cambios
-
 
 		$name = $this->input->post('nombre1');
 		
